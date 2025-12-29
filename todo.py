@@ -10,3 +10,7 @@ def view_tasks():
 def add_task(tasks, task):
     tasks.append({"task": task, "done": False})
     print("Task added successfully")
+def delete_task(index):
+    tasks.pop(index-1)
+    print("Task deleted")
+   

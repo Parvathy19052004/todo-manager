@@ -13,4 +13,6 @@ def add_task(tasks, task):
 def delete_task(index):
     tasks.pop(index-1)
     print("Task deleted")
+def delete_task(index):
+    tasks.pop(index)  
    

@@ -7,3 +7,6 @@ def add_task(task):
 def view_tasks():
     for i, task in enumerate(tasks):
         print(i+1, task)
+def add_task(tasks, task):
+    tasks.append({"task": task, "done": False})
+    print("Task added successfully")

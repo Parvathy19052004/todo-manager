@@ -15,4 +15,5 @@ def delete_task(index):
     print("Task deleted")
 def delete_task(index):
     tasks.pop(index)  
+    tasks.pop(index-1)
    
